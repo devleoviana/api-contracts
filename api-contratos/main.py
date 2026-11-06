@@ -1,7 +1,13 @@
 from fastapi import FastAPI
 
-app = FastAPI(title="API de Contratos")
+from schemas import CreateContract
+
+app = FastAPI(title="Contracts API")
 
 @app.get("/")
 def raiz():
-    return {"mensagem": "API de Contratos no ar"}
+    return {"message": "Contracts API working"}
+
+@app.post("/contracts")
+def create_contract(contract: CreateContract):
+    return contract 
