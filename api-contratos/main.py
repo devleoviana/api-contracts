@@ -1,6 +1,10 @@
 from fastapi import FastAPI
 
+import models
+from database import Base, engine
 from schemas import CreateContract
+
+Base.metadata.create_all(bind=engine)
 
 app = FastAPI(title="Contracts API")
 
