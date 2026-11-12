@@ -11,7 +11,7 @@ The **API Contracts Validator** aims to ensure data consistency and integrity fo
 ## 🛠️ Technologies Used
 
 * **Python 3.x**
-* [Add main project libraries here, e.g., *Pydantic*, *Pytest*, *Requests*, etc.]
+
 
 ---
 
