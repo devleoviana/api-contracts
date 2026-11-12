@@ -1,12 +1,26 @@
-# Contracts API
+# 📄 API Contracts Validator
 
-REST API for contract management, built with Python and FastAPI.
+> A Python project designed to structure, validate, and manage API contracts in an automated and secure way.
 
-## How to run
+## 🚀 About the Project
 
-    python -m venv .venv
-    .venv\Scripts\Activate.ps1
-    pip install -r requirements.txt
-    uvicorn main:app --reload
+The **API Contracts Validator** aims to ensure data consistency and integrity for requests and responses in system integrations. The application validates whether payloads and data structures delivered by an API conform to expected contracts, making it easier to detect breaking changes early.
 
-Interactive documentation available at http://127.0.0.1:8000/docs
+---
+
+## 🛠️ Technologies Used
+
+* **Python 3.x**
+* [Add main project libraries here, e.g., *Pydantic*, *Pytest*, *Requests*, etc.]
+
+---
+
+## ⚙️ How to Run the Project
+
+### Prerequisites
+Make sure you have **Python** installed on your machine.
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/devleoviana/api-contracts.git](https://github.com/devleoviana/api-contracts.git)
+   cd api-contracts
